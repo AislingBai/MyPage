@@ -1,0 +1,93 @@
+/* reset.css */
+
+body {
+    padding: 0;
+    margin: 0;
+    clear: both;
+    width: 100vw;
+}
+
+body {
+    background-color: bisque;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 40px;
+    padding-top: 10px;
+   
+}
+
+.show-image {
+    position: relative;
+    background-image: url(/static/images/b1.jpg);
+    height: 85vh;
+    padding: 10px;
+    border-radius: 20px;
+    background-size: cover;
+}
+
+.bg-photo {
+    background-color: rgba(0,200,255,0.2);
+    border-radius: 110px;
+    position: absolute;
+    bottom: -60px;
+    left: 5%;
+    width: 25%;
+    height: 45%;
+    padding: 20px;
+    
+        
+}
+
+.bg-photo:hover {
+    box-shadow:inset 10px 0 150px rgb(0,0,0);
+}
+
+.navbar {
+    position: absolute;
+    left: auto;
+    right: 2%;
+    bottom: -8%;
+    border-radius: 20px;
+    background-color: rgba(255,255,255,0);
+    width: 65%;
+    height: 10%
+    
+}
+
+.navbar-brand {
+    color: black;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    box-shadow:inset 10px 0  30px rgb(0,0,0);
+    
+
+}
+.navbar-brand:hover{
+    background-color: aqua;
+    font-size: 20px;
+}
+
+.s-set {
+    color: black;
+    background-color:aquamarine;
+    border-radius: 20px;
+    margin-right: 20px;
+    width: 90px;
+    text-align: center;
+    box-shadow:inset 5px 0  20px rgb(0,0,0);
+}
+
+.s-set:hover {
+    background-color:aquamarine;
+}
+
+.it {
+    position: relative;
+    top: 180px;
+}
+
+.li-style {
+    margin-top: 20px;
+   
+    font-size: 20px;
+}
